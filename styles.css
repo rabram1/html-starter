@@ -1,3 +1,26 @@
 body {
   background-color: rgb(32, 35, 41);
 }
+
+#hero {
+  background: #ffffff;
+  color: #202329;
+}
+
+.menu {
+  background-color: #ffffff;
+  color: #333333;
+  list-style-type: none;
+  list-decoration: none;
+  text-decoration: none;
+}
+
+.article {
+  background-color: #3d3e44;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
