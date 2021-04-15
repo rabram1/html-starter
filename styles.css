@@ -3,8 +3,10 @@
 *:after {
   box-sizing: border-box;
 }
+
 body {
   background-color: rgb(32, 35, 41);
+  margin: 1px;
 }
 
 .header {
@@ -18,7 +20,9 @@ body {
 .hero {
   background-color: #ffffff;
   color: #202329;
-  font-size: 20px;
+  font-size: 4.2em;
+  padding: 20px;
+  text-align: center;
 }
 
 .menu {
@@ -26,14 +30,48 @@ body {
   color: #333333;
   list-style-type: none;
   text-decoration: none;
+  float: right;
+  padding: 1em;
+}
+
+.articles {
+  background: #24282f;
 }
 
 .article {
   background-color: #3d3e44;
   color: #ffffff;
+  margin: 4em;
+  padding: 0em;
+  border-radius: 1em;
+  width: 35em;
+  height: 35em;
+  float: left;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+}
+.articles img {
+  height: 14em;
+  width: 13em;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+  text-align: left;
+}
+
+.article h3 {
+  color: #929293;
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.character_info * {
+  margin: 0;
+}
+
+.character_info {
+  display: grid;
+  padding: 0.75em;
 }
