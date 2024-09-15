@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="styles.css" />
     <title>The Rick and Morty API</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.OqxrLVL1zUHx9MD8wDb9TQHaFj%26pid%3DApi&f=1"
+        width="60"
+        height="60"
+        alt="logo-rick-and-morty"
+      />
       <nav class="menu">
         <a href="https://rickandmortyapi.com/documentation">Docs</a>
         <a href="https://rickandmortyapi.com/about">About</a>
@@ -12,88 +19,78 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <h1>The Rick and Morty API</h1>
       </section>
 
-      <section>
-        <article>
-          <h2>
-            <a href="https://rickandmortyapi.com/api/character/144">Glenn </a>
-          </h2>
-          <span>Dead - Alien </span>
-        </article>
-        <p>Last known location:</p>
-        <article>
-          <p>
-            <a href="https://rickandmortyapi.com/api/location/38"
-              >Interdimensional Customs</a
-            >
-          </p>
-          <img
-            src="https://rickandmortyapi.com/api/character/avatar/144.jpeg"
-            alt="Das ist Glen, die Ameise"
-          />
-        </article>
-
-        <article>
-          <h2>
-            <a href="https://rickandmortyapi.com/api/character/3"
-              >Summer Smith
-            </a>
-          </h2>
-          <ul>
-            <li>Alive - Human</li>
-          </ul>
-          <p>Last known location:</p>
-          <p>
-            <a href="https://rickandmortyapi.com/api/location/20"
-              >Earth (Replacement Dimension)
-            </a>
-          </p>
-          <p>
-            First seen in:
-            <a href="https://https://rickandmortyapi.com/api/episode/6"
-              >Rick Potion #9</a
-            >
-          </p>
-
+      <section class="articles">
+        <article class="article">
           <img
             src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
             alt="Das ist Summer Smith"
           />
+          <div class="character_info">
+            <section>
+              <h2>
+                <a href="https://rickandmortyapi.com/api/character/3"
+                  >Summer Smith
+                </a>
+              </h2>
+              <ul>
+                <li>Alive - Human</li>
+              </ul>
+            </section>
+            <section>
+              <h3>Last known location:</h3>
+              <p>
+                <a href="https://rickandmortyapi.com/api/location/20"
+                  >Earth (Replacement Dimension)
+                </a>
+              </p>
+            </section>
+            <section>
+              <h3>First seen in:</h3>
+              <a href="https://https://rickandmortyapi.com/api/episode/6"
+                >Rick Potion #9</a
+              >
+            </section>
+          </div>
         </article>
 
-        <article>
-          <h2>
-            <a href="https://rickandmortyapi.com/api/character/319"
-              >Schmooglite Runner</a
-            >
-          </h2>
-          <ul>
-            <li>Unknown - Alien</li>
-          </ul>
-          <p>Last known location:</p>
-          <p>
-            <a href="https://rickandmortyapi.com/api/location/37"
-              >Resort Planet</a
-            >
-          </p>
-          <p>
-            First seen in:
-            <a href="https://rickandmortyapi.com/api/episode/26"
-              >The Whirly Dirly Conspiracy</a
-            >
-          </p>
-
+        <article class="article">
           <img
             src="https://rickandmortyapi.com/api/character/avatar/319.jpeg"
             alt="Das ist Schmooglite Runner"
           />
+          <div class="character_info">
+            <section>
+              <h2>
+                <a href="https://rickandmortyapi.com/api/character/319"
+                  >Schmooglite Runner</a
+                >
+              </h2>
+              <ul>
+                <li>Unknown - Alien</li>
+              </ul>
+            </section>
+            <section>
+              <h3>Last known location:</h3>
+              <p>
+                <a href="https://rickandmortyapi.com/api/location/37"
+                  >Resort Planet</a
+                >
+              </p>
+            </section>
+            <section>
+              <h3>First seen in:</h3>
+
+              <a href="https://rickandmortyapi.com/api/episode/26"
+                >The Whirly Dirly Conspiracy</a
+              >
+            </section>
+          </div>
         </article>
       </section>
     </main>
-    <hr />
-    <footer>Characters Locations Episodes Server Status</footer>
   </body>
 </html>
